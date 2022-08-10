@@ -1,4 +1,4 @@
-import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -10,7 +10,7 @@ import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
   styleUrls: ['./feedback-and-chat.component.css'],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
-export class FeedbackAndChatComponent implements OnInit {
+export class FeedbackAndChatComponent {
 
   showMsg: boolean = false;
 
@@ -24,18 +24,10 @@ export class FeedbackAndChatComponent implements OnInit {
     private formBuilder: FormBuilder,
   ) {}
 
-  ngOnInit(): void {
-  }
-
   onSubmit(): void {
-    
-    console.log('Form inputs: ', this.contactForm.value);
-    
-    // The logic to fire an email should go here
-
-    // If email is sent successfully
+    console.log('Your feedback has been submitted', this.contactForm.value);
     this.showMsg = true;
-    //this.contactForm.reset();
+    this.contactForm.reset();
   }
 
 }

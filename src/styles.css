@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
-body {
+article {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,6 +10,7 @@ body {
   h1 {
     color: #4479BA;
     text-align: center;
+    font-size: xx-large;
   }
   h2 {
     color: rgb(121, 111, 110);
