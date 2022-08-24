@@ -9,7 +9,8 @@ Here's a preview of the application:
 
 ![Application Preview](app-preview.png)
 
-The step-by-step guide can be found at [https://github.com/angular/standalone-components-photo-gallery-app]
-(https://github.com/angular/standalone-components-photo-gallery-app)
+The step-by-step guide can be found at:
+https://github.com/angular/standalone-components-photo-gallery-app
 
-A published version of the application running in a Google Cloud App Engine instance can be found at: 
+A published version of the application running in Google App Engine can be found at:
+https://photo-gallery-app-dot-diaologflow-cx-playground.uc.r.appspot.com/feedback-and-chat
