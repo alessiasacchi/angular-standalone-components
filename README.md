@@ -1,28 +1,15 @@
-# PhotoGalleryApp
+# Photo Gallery App - Getting started with Standalone Components and Google App Engine
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0-rc.0.
+In this codelab, you'll build a wildlife photo gallery app with Angular v14 and then you'll deploy it to Google App Engine. 
+The completed app will display a set of photos and it will also feature a “send message” form to contact the photographer and a chat window to learn cool facts about the animals pictured in the photos. 
 
-## Development server
+You'll build everything with Angular using Angular v14 and the new standalone components feature.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Here's a preview of the application:
 
-## Code scaffolding
+![Application Preview](app-preview.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The step-by-step guide can be found at [https://github.com/angular/standalone-components-photo-gallery-app]
+(https://github.com/angular/standalone-components-photo-gallery-app)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Introduction to angular standalone components
+A published version of the application running in a Google Cloud App Engine instance can be found at: 
